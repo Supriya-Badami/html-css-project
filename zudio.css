@@ -1,0 +1,249 @@
+@font-face {
+    font-family: Futura;
+    src: url('./futura/Futura\ Extra\ Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.bg-page {
+    background-color: black;
+    
+}
+.start {
+    margin-bottom: auto;
+}
+.headpage {
+    color: white;
+    background: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    vertical-align: baseline;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.left {
+    color: white;
+    margin-left: 35px;
+}
+
+.brandname {
+    display: block;
+    left: 40px;
+   
+}
+
+.right {
+    justify-content: space-around;
+    text-decoration: none;
+    vertical-align: baseline;
+    color: white;
+    margin-top: 20px;
+
+
+}
+
+.right a {
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: bottom;
+    margin-top: 10%;
+    padding: 30px;
+}
+
+.right a:hover {
+    color: rgb(136, 134, 134);
+}
+
+/* body */
+
+img {
+    display: flex;
+    padding: 5px 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+}
+
+.menu {
+    letter-spacing: 1px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+    display: grid;
+    font-size: 19px;
+    float: left;
+    text-transform: initial;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+.dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 10px;
+    bottom: 60px;
+    right: 70px;
+    position: absolute;
+}
+.dot{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.dot:hover{
+    background-color: white;
+}
+
+.mft {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+
+}
+
+.footer {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 170px;
+    line-height: normal;
+}
+
+.f1 {
+    color: white;
+    margin-bottom: 30px;
+    line-height: normal;
+}
+
+.f1 a {
+    line-height: normal;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 90px;
+    
+
+}
+
+/* beauty page */
+
+.bhead {
+    margin-bottom: -10px;
+}
+
+.bimg {
+    display: flex;
+    position: absolute;
+    margin-top: -20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+  
+}
+
+.be {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+    margin-top: 550px;
+
+}
+
+.be1 {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 170px;
+    line-height: normal;
+}
+
+.leftfoot {
+    color: white;
+    margin-bottom: 30px;
+    line-height: normal;
+}
+
+.leftfoot a {
+    line-height: normal;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 90px;
+
+}
+
+/* women */
+
+.whead {
+    margin-bottom: -10px;
+}
+
+.wimg {
+    display: flex;
+    position: absolute;
+    margin-top: -20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+  
+}
+
+.we {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+    margin-top: 550px;
+
+}
+
+.we1 {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 170px;
+    line-height: normal;
+}
+
+.wfoot {
+    color: white;
+    margin-bottom: 30px;
+    line-height: normal;
+}
+
+.wfoot a {
+    line-height: normal;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding-right: 90px;
+
+}
